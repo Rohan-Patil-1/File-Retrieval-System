@@ -24,24 +24,16 @@ public class AppInterface {
             System.out.print("\nEnter your Option: ");
             String command = scanner.nextLine().trim();
 
-            if (command.equalsIgnoreCase("quit")) {
-                break;
-            } else if (command.startsWith("index")) {
-                String datasetPath = PathFolder(command);
-                if (datasetPath != null) {
-                    engine.indexFiles(datasetPath);
-                } else {
-                    System.out.println("Invalid 'index' option. Please provide the folder path.");
-                }
-            } else if (command.toLowerCase().startsWith("search") ) {
-                if (command.length() > 7) {
-                    String query = command.substring(7).trim();
-                    engine.search(query);
-                } else {
-                    System.out.println("Invalid 'search' option. Please provide a query.");
-                }
-            }else {
-                System.out.println("Option Invalid . Please try again.");
+            if () { 
+                // TO-DO implement for "Quit"
+            } else if () { 
+                // TO-DO implement for "Index"
+                // TO-DO implement "invalid indexing path"
+            } else if () { 
+                // TO-DO implement for "Search"
+                // TO-DO implement "invalid search query"
+            } else {
+                // TO-DO implement "Invalid Option
             }
         }
 
