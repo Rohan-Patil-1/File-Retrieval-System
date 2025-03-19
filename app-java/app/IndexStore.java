@@ -27,7 +27,6 @@ public class IndexStore {
 
     public void putDocument(String documentPath, List<String> keywords) {
         // TO-DO implement storing document paths in the document map for a given keyword
-        }
     }
 
     public void updateIndex(String term, String documentPath, int frequency) {
