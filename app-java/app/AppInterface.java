@@ -33,7 +33,7 @@ public class AppInterface {
                 // TO-DO implement for "Search"
                 // TO-DO implement "invalid search query"
             } else {
-                // TO-DO implement "Invalid Option
+                // TO-DO implement "Invalid Option"
             }
         }
 
