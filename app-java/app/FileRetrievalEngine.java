@@ -4,7 +4,7 @@ public class FileRetrievalEngine {
 
     public static void main(String[] args) {
         if (args.length != 1) {
-            System.err.println("Usage: java FileRetrievalEngine <number_of_worker_threads>");
+            System.err.println("Usage: java FileRetrievalEngine <number_of_worker_threads>");    // Number of Threads (4 is optimal)
             System.exit(1);
         }
 
@@ -33,7 +33,6 @@ public class FileRetrievalEngine {
 
     // Cleanup method to clear IndexStore
     public static void cleanup(IndexStore indexStore) {
-        indexStore.clearIndexStore();
-        System.out.println("IndexStore cleared.");
+        // TO-DO Cleaning indexed data
     }
 }
