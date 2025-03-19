@@ -64,6 +64,8 @@ java -cp target/app-java-1.0-SNAPSHOT.jar app.FileRetrievalEngine
 Once the application is running, you can interact with it by issuing commands. Here’s an example of how to use the application:
 
 ```
+java -cp target/app-java-1.0-SNAPSHOT.jar app.FileRetrievalEngine 
+
 > index ../datasets/dataset1 // Change the dataset destination
 Completed indexing 134321105 bytes of data
 Completed indexing in 10.386 seconds
