@@ -68,6 +68,7 @@ public class IndexStore {
     }
 
     private Map<String, Integer> extractTerms(File file) {
+	try (BufferedReader reader = new BufferedReader(new FileReader(file))){
         // TO-DO implement extraction of terms and their frequency from a file
         } catch (IOException e) {
             System.err.println("Error reading file: " + file.getName());
